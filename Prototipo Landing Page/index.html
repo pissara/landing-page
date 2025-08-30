@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900 family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="main-bg">
+    
+    <input id="close-menu" class="close-menu" type="checkbox" role="button" aria-label="Close menu">
+    <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+    <aside class="menu white-bg">
+        <div id="main" class="main-content menu-content logo">
+            <h1 onclick="getElementById('close-menu').checked= false;">
+                <a href="#" onclick="screenTop">LOGO</a>
+            </h1>
+
+            <nav>
+                <ul onclick="getElementById('close-menu').checked= false;">
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#grid-top3">Top 3</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#grid-work">Work</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>January bring us Firefox 85</h2>
+                <p>To wrap up January, we are pround to bring you the release of firefox 85. In this versionwe are
+                    bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the
+                    complete removal of Flash support from Firefox</p>
+            </div>
+            <div class="intro-img"><img src="assets/img/undraw_static-assets_di5m.svg"
+                    alt="Um homem segurando a logo da Linguagem de CSS, enquanto uma mulher empurra a logo da linguagem javascript e outro homem segurando a logo da linguagem HTML">
+            </div>
+        </div>
+    </section>
+
+    <section id="intro" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>new coverages and some surprises</h2>
+            <p>The release of Apple Silicon-based Macs at the end of the last year generated a flurry of news coverage
+                and some surprises at the machine's performance. This post details some background information on the
+                experience of porting Firefox to run nativaly on these CPUs.</p>
+            <p>We'll start wutg some background on the Mac transition and give an overview of Firefox internals that
+                needed to know about the new architecture, before moving on to the concept of Universal Binaries.</p>
+            <p> We'll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur,
+                and discuss various updater problems we had to deal with. We'll conclude with the release and an
+                overview of various other improvements that are in the pipeline.</p>
+        </div>
+    </section>
+
+    <section id="grid-top3" class="main-bg section">
+        <div class="main-content grid-top3-content">
+            <h2 class="grid-main-heading">top 3 jobs</h2>
+            <p class="grid-description">Here are some recent work</p>
+            <div class="grid">
+                <article>
+                    <h3>Teste</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, magni iusto! Saepe alias minus ad
+                        in, at ab corrupti atque dicta libero, laborum veniam magni repellendus ex, vero qui accusamus.
+                    </p>
+                </article>
+                <article>
+                    <h3>Teste</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, magni iusto! Saepe alias minus ad
+                        in, at ab corrupti atque dicta libero, laborum veniam magni repellendus ex, vero qui accusamus.
+                    </p>
+                </article>
+                <article>
+                    <h3>Teste</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, magni iusto! Saepe alias minus ad
+                        in, at ab corrupti atque dicta libero, laborum veniam magni repellendus ex, vero qui accusamus.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="white-bg section">
+        <div class="main-content grid-top3-content">
+            <h2 class="grid-main-heading">gallery</h2>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="assets/img/gallery1.jpg" alt="random image">
+                </div>
+                <div class="gallery-img">
+                    <img src="assets/img/gallery2.jpg" alt="random image">
+                </div>
+                <div class="gallery-img">
+                    <img src="assets/img/gallery3.jpg" alt="random image">
+                </div>
+                <div class="gallery-img">
+                    <img src="assets/img/gallery4.jpg" alt="random image">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="assets/img/gallery5.jpg" alt="random image">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="assets/img/gallery6.jpg" alt="random image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="grid-work" class="main-bg section">
+        <div class="main-content grid-top3-content">
+            <h2 class="grid-main-heading">top 3 jobs</h2>
+            <p class="grid-description">Here are some recent work</p>
+            <div class="grid">
+                <article>
+                    <h3>Teste</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, magni iusto! Saepe alias minus ad
+                        in, at ab corrupti atque dicta libero, laborum veniam magni repellendus ex, vero qui accusamus.
+                    </p>
+                </article>
+                <article>
+                    <h3>Teste</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, magni iusto! Saepe alias minus ad
+                        in, at ab corrupti atque dicta libero, laborum veniam magni repellendus ex, vero qui accusamus.
+                    </p>
+                </article>
+                <article>
+                    <h3>Teste</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, magni iusto! Saepe alias minus ad
+                        in, at ab corrupti atque dicta libero, laborum veniam magni repellendus ex, vero qui accusamus.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>pricing</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non labore beatae nisi voluptates soluta illum
+                repellendus minus. Iste reprehenderit laboriosam qui, dolorem et enim error accusamus eius quam at
+                alias.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur deserunt, vitae suscipit mollitia
+                molestiae reiciendis error, facere, rerum esse alias cum similique corrupti repellat aperiam? Placeat
+                voluptatibus repudiandae magnam nostrum.</p>
+
+            <div class="responsive-table">
+                <table>
+                    <caption>Princing table</caption>
+
+                    <thead>
+                        <tr>
+                            <th>Title 1</th>
+                            <th>Title 2</th>
+                            <th>Title 3</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>Testando</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Contact Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis blanditiis perferendis obcaecati quidem magni modi aperiam delectus eveniet. Animi architecto debitis doloremque sit sint aperiam, ad non placeat reiciendis quisquam.</p>
+            </div>
+            <div class="intro-img"><img src="assets/img/undraw_contact-us_kcoa.svg"
+                    alt="Um homem segurando a logo da Linguagem de CSS, enquanto uma mulher empurra a logo da linguagem javascript e outro homem segurando a logo da linguagem HTML">
+            </div>
+
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contact me</legend>
+
+                    <div class="form-group">
+                        <label for="first-name">First name</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last name</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="youremail@email.com">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message..."></textarea>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <button type="submit">Send message</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="white-bg footer">
+        <p><a rel="nofollow" target="_blank" href="#">Feito com <span class="heart">❤</span> por Matheus Pissarra Gouveia</a></p>
+    </footer>
+
+    <a class="back-to-top" href="#home">▲</a>
+</body>
+
+</html>
